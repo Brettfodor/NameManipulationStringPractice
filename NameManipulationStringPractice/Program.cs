@@ -6,7 +6,15 @@ namespace NameManipulationStringPractice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("What is your first name? ");
+
+            string firstName;
+            firstName = Console.ReadLine();
+
+            Console.WriteLine("Your name is: " + firstName);
+            
+
+            
         }
     }
 }
