@@ -19,9 +19,9 @@ namespace NameManipulationStringPractice
 
             Console.WriteLine("Your full name is: " + firstName.ToLower()+ " " + lastName.ToLower());
 
-            if(firstName.Length > lastName.Length) Console.WriteLine("Your first name is longer than your last name");
+            if(firstName.Length > lastName.Length) Console.WriteLine(firstName);
             
-            if(lastName.Length > firstName.Length) Console.WriteLine("Your last  name is longer than your first name");
+            if(lastName.Length > firstName.Length) Console.WriteLine(lastName);
 
             if(lastName.Length == firstName.Length) Console.WriteLine("Your first and last name are equal in character length");
             
